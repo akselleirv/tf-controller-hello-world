@@ -12,5 +12,8 @@ output "hello_world" {
   value = "Hello, ${var.subject}!"
 }
 
-resource "null_resource" "test" {
+resource "null_resource" "test_1" {
+}
+
+resource "null_resource" "test_2" {
 }
